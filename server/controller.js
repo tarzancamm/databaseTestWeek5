@@ -12,6 +12,8 @@ const sequelize = new Sequelize(CONNECTION_STRING, {
     }
 });
 
+// Comment
+
 
 module.exports = {
     seed: (req, res) => {
